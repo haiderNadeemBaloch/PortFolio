@@ -232,7 +232,7 @@ header {
 }
 
 .banner {
-  background-image: url("/svg/bannerBg.svg");
+  background-image: url("./svg/bannerBg.svg");
   border-radius: 2vw;
   width: 89.583vw;
   height: 38vw;
