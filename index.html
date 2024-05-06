@@ -1,0 +1,627 @@
+<!-- https://www.figma.com/file/oxNg5rXpOLBLCjrwKL4BkT/my-portfolio-website?type=design&node-id=1-1553&mode=design&t=Ji36lutN6AIwan7F-0 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MY POrtFolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <div class="navbar">
+      <div class="navBrand">
+        <div class="brandLogo">
+          <img src="./svg/logo.svg" alt="brand Logo" />
+        </div>
+        <div class="brandText">UIUXer</div>
+      </div>
+      <div class="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#me">Me</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
+        <li><a href="#news">News</a></li>
+      </div>
+      <div class="sideBar">
+        <i class="fa-solid fa-xmark" onclick=hideSideBar()></i>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#me">Me</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
+        <li><a href="#news">News</a></li>
+      </div>
+      <div class="menu">
+        <i class="fa-solid fa-bars" onclick=showSideBar()></i>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- BANNER SECTION -->
+    <section id="bannerSection">
+      <div class="banner" id="home">
+        <div class="bannerContent">
+          <span id="name">Hi, I'm Haider!</span><span class="hornImage"><img src="/svg/signHorn.svg"
+              alt="sign of horn" /></span>
+          <br />
+          a <span id="Developer">JS Developer</span> <br />
+          with <span></span>years experience <br />
+          working at <span id="company">Fraxos</span>
+          <div class="circleMain">
+            <div class="bannerCircle" style="width: 100px; height: 100px; font-size: 100px">
+              <span id="text"> SCROLL DOWN TO SEE OUR WORK</span>
+              <i class="fa-solid fa-star" id="bannerStar"></i>
+            </div>
+            <i class="fa fa-long-arrow-down" id="bannerArrow" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h2 class="workTitle" id="work">WORK <i class="fa-solid fa-pencil"></i></h2>
+    <p class="bannerLine1"></p>
+
+    <!-- WORK SECTION 1-->
+    <section id="workSection1">
+      <div class="circle"></div>
+      <div class="workContent1">
+        <div class="workHeading">Re-Design For The App Made Easy</div>
+        <div class="workButtons">
+          <button>User Research</button>
+          <button>Ux Design</button>
+        </div>
+        <div class="workText">
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="workMainButton">
+          <button>Read Case Study ↗</button>
+        </div>
+      </div>
+      <div class="workImage1">
+        <img src="./svg/work1.svg" alt="work image 1" />
+      </div>
+      <div class="workImage2">
+        <img src="./svg/work2.svg" alt="work image 2" />
+      </div>
+      <div class="curve"></div>
+    </section>
+
+    <!-- WORK SECTION 2-->
+    <section id="workSection2">
+      <div class="circle"></div>
+      <div class="workContent2">
+        <div class="workHeading">
+          SaaSup Website For <br> Unique Start-Up Brands
+        </div>
+        <div class="workButtons">
+          <button>User Research</button>
+          <button>Ux Design</button>
+        </div>
+        <div class="workText">
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="workMainButton">
+          <button>Read Case Study ↗</button>
+        </div>
+      </div>
+      <div class="workSecondImages">
+        <div class="second1">
+          <img src="./svg/workSecond1.svg" alt="" />
+        </div>
+        <div class="second2">
+          <img src="./svg/workSecond2.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK SECTION 3-->
+    <section id="workSection3">
+      <div class="circle"></div>
+      <div class="workContent3">
+        <div class="workHeading">
+          AI vision technology <br />
+          to improve security
+        </div>
+        <div class="workButtons">
+          <button>User Research</button>
+          <button>Ux Design</button>
+        </div>
+        <div class="workText">
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="workMainButton">
+          <button>Read Case Study ↗</button>
+        </div>
+      </div>
+      <div class="workThiredImages">
+        <div class="thired1">
+          <img src="./svg/workThired1.svg" alt="" />
+        </div>
+        <div class="thired2">
+          <img src="./svg/workThired2.svg" alt="" />
+        </div>
+      </div>
+      <div class="curve"></div>
+    </section>
+
+    <!-- WORK SECTION 4-->
+    <section id="workSection4">
+      <div class="circle"></div>
+      <div class="workContent4">
+        <div class="workHeading">
+          Prototyping a plugin <br />
+          to help designers
+        </div>
+        <div class="workButtons">
+          <button>User Research</button>
+          <button>Ux Design</button>
+        </div>
+        <div class="workText">
+          <p>
+            It is a long established fact that a reader will be
+            distracted by the readable content
+            of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="workMainButton">
+          <button>Read Case Study ↗</button>
+        </div>
+      </div>
+      <div class="workForthImages">
+        <div class="forth1">
+          <img src="./svg/workforth1.svg" alt="" />
+        </div>
+        <div class="forth2">
+          <img src="./svg/workforth2.svg" alt="" />
+        </div>
+        <div class="forth3">
+          <img src="./svg/workforth3.svg" alt="" />
+        </div>
+        <div class="forth4">
+          <img src="./svg/workforth4.svg" alt="" />
+        </div>
+        <div class="forth5">
+          <img src="./svg/workforth5.svg" alt="" />
+        </div>
+        <div class="forth6">
+          <img src="./svg/workforth6.svg" alt="" />
+        </div>
+        <div class="forth7">
+          <img src="./svg/workforth7.svg" alt="" />
+        </div>
+        <div class="forth8">
+          <img src="./svg/workforth8.svg" alt="" />
+        </div>
+        <div class="forth9">
+          <img src="./svg/workforth9.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK SECTION 5-->
+    <section id="workSection5">
+      <div class="workCard1">
+        <div class="workCardImage1">
+          <img src="./svg/workFifth1.svg" alt="" />
+        </div>
+        <div class="workCardContent">
+          <div class="workCardHeading">Design of a mobile app develops</div>
+          <div class="workCardText">
+            Standard dummy text ever since the 1500s, when unknown printer
+            took a galley of type and scrambled it to make a type specimen
+            book
+          </div>
+          <div class="workCardButton">
+            <button>Coming Soon</button>
+          </div>
+        </div>
+      </div>
+      <div class="workCard2">
+        <div class="workCardImage2">
+          <img src="./svg/workFifth2.svg" alt="" />
+        </div>
+        <div class="workCardContent">
+          <div class="workCardHeading">Mobile App Landing Template</div>
+          <div class="workCardText">
+            Standard dummy text ever since the 1500s, when unknown printer
+            took a galley of type and scrambled it to make a type specimen
+            book
+          </div>
+          <div class="workCardButton">
+            <button>Coming Soon</button>
+          </div>
+        </div>
+      </div>
+      <div class="workCard2"></div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="workSection6">
+      <div class="aboutMeHeading">
+        <h2 class="workTitle" id="me">
+          ABOUT ME <i class="fa-solid fa-address-card"></i>
+        </h2>
+        <p class="bannerLine1"></p>
+      </div>
+      <div class="mainAboutMe">
+        <div class="aboutMeContent">
+          <p class="paragraph1">
+            Im a UX Designer, Over the past
+            <span class="p1">10+ years</span> I’ve created well-crafted mobile
+            and web apps by connecting business goals with user needs
+          </p>
+
+          <p class="paragraph2">
+            Currently Service and Interaction Designer @
+            <span class="p2">Fraxos</span> office. Recently graduated from UC
+            Berkeley, focusing on Interaction Design & Design Emerging
+            Technology.
+          </p>
+
+          <p class="paragraph3">
+            Formerly at Electronic Arts, Apple, Sea Group, Deutsche Bank and
+            JPMorgan Chase & Co.
+          </p>
+        </div>
+        <div class="aboutMeImage">
+          <div class="image">
+            <img src="./svg/about.svg" alt="" />
+          </div>
+          <div class="circleMain2">
+            <div class="bannerCircle2">
+              <span id="text2"> SCROLL DOWN TO SEE OUR WORK</span>
+            </div>
+            <i class="fa fa-long-arrow-down" id="bannerArrow2" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE SECTION -->
+    <section id="serviceSection">
+      <div class="serviceMainHeading">
+        <h2 class="serviceTitle" id="service">
+          SERVICES <i class="fa-solid fa-gear"></i>
+        </h2>
+        <p class="bannerLine1"></p>
+      </div>
+      <div class="serviceCards">
+        <div class="serviceCard">
+          <div class="serviceIcon">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <div class="serviceHeading">Mobile App</div>
+          <div class="serviceText">
+            It is a long established fact that reader will be distractedthe.
+          </div>
+          <div class="serviceLists">
+            <ul>
+              <li>Web and Mobile App Design</li>
+
+              <li>Front-end Development</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="serviceCard">
+          <div class="serviceIcon">
+            <i class="fa-solid fa-palette"></i>
+          </div>
+          <div class="serviceHeading">UX/UI design</div>
+          <div class="serviceText">
+            It is a long established fact that reader will be distractedthe.
+          </div>
+          <div class="serviceLists">
+            <ul>
+              <li>Web and Mobile App Design</li>
+
+              <li>Front-end Development</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="serviceCard">
+          <div class="serviceIcon">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <div class="serviceHeading">Strategy & Direction</div>
+          <div class="serviceText">
+            It is a long established fact that reader will be distractedthe.
+          </div>
+          <div class="serviceLists">
+            <ul>
+              <li>Web and Mobile App Design</li>
+
+              <li>Front-end Development</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="serviceCard">
+          <div class="serviceIcon">
+            <i class="fa-brands fa-app-store"></i>
+          </div>
+          <div class="serviceHeading">App Development</div>
+          <div class="serviceText">
+            It is a long established fact that reader will be distractedthe.
+          </div>
+          <div class="serviceLists">
+            <ul>
+              <li>Web and Mobile App Design</li>
+
+              <li>Front-end Development</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="serviceCard">
+          <div class="serviceIcon">
+            <i class="fa-solid fa-pen-fancy"></i>
+          </div>
+          <div class="serviceHeading">Motion web design</div>
+          <div class="serviceText">
+            It is a long established fact that reader will be distractedthe.
+          </div>
+          <div class="serviceLists">
+            <ul>
+              <li>Web and Mobile App Design</li>
+
+              <li>Front-end Development</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="serviceCard">
+          <div class="serviceIcon">
+            <i class="fa-solid fa-pager"></i>
+          </div>
+          <div class="serviceHeading">Website development</div>
+          <div class="serviceText">
+            It is a long established fact that reader will be distractedthe.
+          </div>
+          <div class="serviceLists">
+            <ul>
+              <li>Web and Mobile App Design</li>
+
+              <li>Front-end Development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL SECTION -->
+    <section id="testimonialSection">
+      <div class="testimonialMainHeading">
+        <h2 class="testimonialTitle" id="testimonial">
+          TESTIMONIALS <i class="fa-solid fa-comment-dots"></i></i>
+        </h2>
+        <p class="bannerLine1"></p>
+      </div>
+      <div class="testimonialContent">
+        <div class="testimonialInner">
+          <div class="testimonialContentHeading">
+            What People Are Saying <br>
+            About My Work
+          </div>
+          <div class="testimonialComments">
+            <div class="testimonialComment">
+              <div class="commentIntro">
+                <div class="commentImage">
+                  <img src="./svg/comment1.svg" alt="">
+                </div>
+                <div class="commentName">
+                  <div class="commentHeading">
+                    Marilyn Monroe
+                  </div>
+                  <div class="commentSubHeading">
+                    Condent Writer
+                  </div>
+                </div>
+              </div>
+              <div class="commentContext">
+                <div class="commentQuotes">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="commentText">
+                  We worked with David designing our backend web app from scratch and we are delighted with the results.
+                  He has excellent communication skills and uses robust workflows that allowed me and my team to work
+                  with him efficiently.
+                </div>
+              </div>
+              <div class="commentLine"></div>
+            </div>
+
+
+            <div class="testimonialComment">
+              <div class="commentIntro">
+                <div class="commentImage">
+                  <img src="./svg/comment2.svg" alt="">
+                </div>
+                <div class="commentName">
+                  <div class="commentHeading">
+                    Sylvester Stallone
+                  </div>
+                  <div class="commentSubHeading">
+                    Designer
+                  </div>
+                </div>
+              </div>
+              <div class="commentContext">
+                <div class="commentQuotes">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="commentText">
+                  We worked with David designing our backend web app from scratch and we are delighted with the results.
+                  He has excellent communication skills and uses robust workflows that allowed me and my team to work
+                  with him efficiently.
+                </div>
+              </div>
+              <div class="commentLine"></div>
+            </div>
+
+            <div class="testimonialComment">
+              <div class="commentIntro">
+                <div class="commentImage">
+                  <img src="./svg/comment3.svg" alt="">
+                </div>
+                <div class="commentName">
+                  <div class="commentHeading">
+                    Dennis Hopper
+                  </div>
+                  <div class="commentSubHeading">
+                    Developer
+                  </div>
+                </div>
+              </div>
+              <div class="commentContext">
+                <div class="commentQuotes">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="commentText">
+                  We worked with David designing our backend web app from scratch and we are delighted with the results.
+                  He has excellent communication skills and uses robust workflows that allowed me and my team to work
+                  with him efficiently.
+                </div>
+              </div>
+              <div class="commentLine"></div>
+            </div>
+
+            <div class="testimonialComment">
+              <div class="commentIntro">
+                <div class="commentImage">
+                  <img src="./svg/comment4.svg" alt="">
+                </div>
+                <div class="commentName">
+                  <div class="commentHeading">
+                    Nattasha
+                  </div>
+                  <div class="commentSubHeading">
+                    Artist
+                  </div>
+                </div>
+              </div>
+              <div class="commentContext">
+                <div class="commentQuotes">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="commentText">
+                  We worked with David designing our backend web app from scratch and we are delighted with the results.
+                  He has excellent communication skills and uses robust workflows that allowed me and my team to work
+                  with him efficiently.
+                </div>
+              </div>
+              <div class="commentLine"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS SECTION -->
+    <section id="newsSection">
+      <div class="newsMainHeading">
+        <h2 class="newsTitle" id="news">
+          RECENT NEWS <i class="fa-solid fa-newspaper"></i>
+        </h2>
+        <p class="bannerLine1"></p>
+      </div>
+      <div class="newsCards">
+        <div class="newsCard">
+          <div class="cardImage">
+            <img src="./svg/news1.svg" alt="">
+          </div>
+          <div class="newsCardContent">
+            <div class="newsDate">
+              By Admin - Developing - July 19, 2022
+            </div>
+            <div class="newsHeading">
+              How do you use time tracking for <br>
+  your projects?
+            </div>
+            <div class="newsText">
+              It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout.
+            </div>
+            <div class="newsLink"><a href="#">View Post ↗</a></div>
+          </div>
+        </div>
+
+        <div class="newsCard">
+          <div class="cardImage">
+            <img src="./svg/news2.svg" alt="">
+          </div>
+          <div class="newsCardContent">
+            <div class="newsDate">
+              By Admin - Developing - July 19, 2022
+            </div>
+            <div class="newsHeading">
+              How do you use time tracking for <br>
+  your projects?
+            </div>
+            <div class="newsText">
+              It is a long established fact that a reader will be distracted the readable content of a page when looking
+              at its layout.
+            </div>
+            <div class="newsLink"><a href="#">View Post ↗</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <section id="footerSection">
+        <div class="circleMain3">
+          <div class="bannerCircle3">
+            <span id="text3"> THANKS FOR SCROLLING GET UP</span>
+          </div>
+          <i class="fa-solid fa-arrow-up-long" id="bannerArrow3"></i>
+        </div>
+        <div class="footerText">
+          Available For Work <i class="fa-solid fa-desktop"></i> Get In Touch <i class="fa-solid fa-hand-peace"></i>
+        </div>
+        <div class="footerLine"></div>
+        <div class="footerBox">
+          <div class="footerLinks">
+            <div class="pageLinks">
+              <a href="#">Home</a>
+              <a href="#">Work</a>
+              <a href="#">Me</a>
+            </div>
+            <div class="socialLinks">
+              <a href="#">Linkedin</a>
+              <a href="#">Instagram</a>
+              <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="footerComment">
+          Interested in working together? Drop me a line
+          <button class="footerButton"><i class="fa-regular fa-copy"></i> Copy Email</button>
+        </div>
+        </div>
+        <div class="footerLine"></div>
+        <div class="copyRightText">
+          Copyright © Designerz | Designed by VictorFlow Templates - Powered by Webflow
+        </div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
