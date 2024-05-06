@@ -990,7 +990,7 @@ header {
 /* WORK SECTION 4 */
 
 #workSection4 {
-  background-image: url("svg/workBg4.svg");
+  background-image: url("./svg/workBg4.svg");
   height: 42.857vw;
   width: 87.143vw;
   background-repeat: no-repeat;
