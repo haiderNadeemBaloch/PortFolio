@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
 
 /* WILD CARD */
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -232,7 +232,7 @@ header {
 }
 
 .banner {
-  background-image: url("./svg/bannerBg.svg");
+  background-image: url("../svg/bannerBg.svg");
   border-radius: 2vw;
   width: 89.583vw;
   height: 38vw;
@@ -2045,7 +2045,7 @@ header {
 /* FOOTER SECTION */
 #footerSection {
   margin-top: 3.5vw;
-  background-image: url("./svg/footerBg.svg");
+  background-image: url("../svg/footerBg.svg");
   width: 98.9vw;
   height: 51vw;
 }

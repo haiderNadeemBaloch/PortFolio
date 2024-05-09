@@ -1,0 +1,97 @@
+// VARIABLES
+$subHeadingColor: #242f65;
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "Mulish";
+  color: black;
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+  z-index: 8;
+
+  .navbar {
+    margin-top: 50px;
+    width: 73.281vw;
+    height: 2.835vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navBrand {
+    display: flex;
+    align-items: center;
+  }
+
+  .brandText {
+    margin-left: 0.5vw;
+    font-weight: 800;
+    font-size: 1.5em;
+    padding-bottom: 3vw;
+  }
+
+  .brandLogo img {
+    width: 2em;
+    margin-top: 5px;
+    padding-bottom: 3vw;
+  }
+
+  .navLinks {
+    display: flex;
+    height: 1.302vw;
+    width: 45em;
+    padding-left: 9vw;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3vw;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .sideBar {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 8;
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 2.5vw;
+    padding-top: 4vw;
+    padding-left: 5vw;
+    padding-bottom: 2vw;
+
+    i {
+      padding-left: 20vw;
+      font-size: 4vw;
+    }
+
+    a {
+      width: 100%;
+      padding-left: 5.5vw;
+      color: black;
+      font-weight: 600;
+    }
+
+    li {
+      width: 100%;
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+
+      a {
+        color: black;
+      }
+    }
+  }
+  .menu {
+    display: none;
+  }
+}
